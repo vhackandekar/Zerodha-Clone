@@ -3,7 +3,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
             <div className="container-fluid">
-                <a className="navbar-brand fw-bold fs-4" href="#">
+                <a className="navbar-brand fw-bold fs-4" href="/">
                     <img src={logo} alt="Zerodha Logo" className="me-2" style={{ height: '20px' }} />
                 </a>
                 <button 
