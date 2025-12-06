@@ -6,9 +6,9 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Homepage  from './Landingpages/home/Homepage'
 import Aboutpage from './Landingpages/about/Aboutpage'
 import Productpage from './Landingpages/products/Productpage'
+import Pricingpage from './Landingpages/pricing/Pricingpage'
 import Navbar from './Landingpages/home/Navbar'
 import Footer from './Landingpages/home/Footer'
-
 createRoot(document.getElementById('root')).render(
  <BrowserRouter>
     <Navbar/>
@@ -16,6 +16,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/' element={<Homepage/>}/>
         <Route path='/about' element={<Aboutpage/>}/>
         <Route path='/products' element={<Productpage/>}/>
+        <Route path='/pricing' element={<Pricingpage/>}/>
     </Routes>
     <Footer/>
  </BrowserRouter>

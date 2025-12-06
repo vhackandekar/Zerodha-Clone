@@ -9,6 +9,7 @@ import img2 from "../../assets/console.png"
 import img3 from "../../assets/coin.png"
 import img4 from "../../assets/kiteconnect.png"
 import img5 from "../../assets/varsity.png"
+import Signup from "../home/Signup"
 
 export default function Productpage(){
     return(
@@ -20,6 +21,7 @@ export default function Productpage(){
             <ProductRight imgage={img4} name="Kite Connect" desc="A set of REST-like APIs that let you build your own trading platforms and tools. Access real-time market data, place orders, and manage your portfolio programmatically." trydemo="" learnmore="" link1={link1} link2={link2} />
             <ProductLeft imgage={img5} name="Varsity Mobile" desc="The largest online stock market education book in the world. Learn everything from the basics to advanced trading concepts with our comprehensive modules." trydemo="" learnmore="" link1={link1} link2={link2} />
             <Universe />
+            <Signup />
         </div>
     )
 }
